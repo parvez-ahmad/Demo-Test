@@ -7,11 +7,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DemoTestApplication {
 
 	public void test(){}
+	public void test1(){}
 	public static void main(String[] args) {
 		SpringApplication.run(DemoTestApplication.class, args);
 		System.out.println("before commit");
 		System.out.println("second commit");
 		System.out.println("third commit from eclipse");
+		
 	}
 
 }

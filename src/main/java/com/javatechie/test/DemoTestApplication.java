@@ -11,6 +11,7 @@ public class DemoTestApplication {
 		SpringApplication.run(DemoTestApplication.class, args);
 		System.out.println("before commit");
 		System.out.println("second commit");
+		System.out.println("third commit from eclipse");
 	}
 
 }
